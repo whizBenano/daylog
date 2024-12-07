@@ -6,7 +6,7 @@ const Home = () => (
       <div className="size-4/5 flex flex-col items-center justify-between">
         <h1 className="text-9xl pt-20 text-[#010057] font-semibold">DAYLOG SYSTEMS</h1>
         <p className="text-4xl -mt-24 leading-20 text-center ">Your first solution for attendance, logging <br /> and user management.</p>
-        <h4 className="text-3xl ">Click on the link below to learn more</h4>
+        <h4 className="text-3xl text-center">Click on the link below to learn more</h4>
         <Link href="/about" className="text-white bg-[#010057] duration-500 -mt-20 px-4 py-3 rounded-sm hover:scale-110 font-bold">LEARN MORE</Link>
       </div>
     </main>

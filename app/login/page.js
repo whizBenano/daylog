@@ -19,8 +19,7 @@ const Login = () => (
                                 <label>Password</label>
                             </div>
                             <p className="text-[#010057] text-xl mt-4">
-                                Forgot password? click 
-                                <Link href="" className="text-[#d51a18] font-bold"> here </Link>to reset
+                                Forgot password? click <Link href="" className="text-[#d51a18] font-bold hover:underline">here</Link> to reset
                             </p>
                             <input type="submit" value='Login' className="text-white bg-[#010057] mt-8 px-4 py-3 rounded-sm duration-500 hover:scale-110" />
                         </form>
